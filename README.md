@@ -1,1 +1,1 @@
-# odin-recipes
+In this first Odin-Project I will be creating a recipes list then eventually styling it, for that I will use tailwind instead of regular CSS. 
