@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap,wght@0,600;1,600&display=swap,wght@0,700;1,700&display=swap" rel="stylesheet">
     <title>Odin-Recipes</title>
 </head>
-<body>
-    <h1>Odin-Recipes</h1>
-        <ul>
-            <li><a href="recipes/lasagna.html">Lasagna</a></li>
-            <li><a href="recipes/sushi.html">Sushi</a></li>
-            <li><a href="recipes/bananaBread.html">Banana Bread</a></li>
+
+
+
+
+<body class="max-w-xl mx-auto" style="font-family: Open Sans, sans-serif;">
+    <h1 class="bg-blue-500 text-center text-xl font-bold mt-4 border rounded-full max-w-fit mx-auto px-3 py-2">Odin-Recipes</h1>
+        <ul class="mt-10 pl-10 flex grid-cols-3 justify-between font-semibold">
+            <li><a class="border rounded-full px-3 py-2 bg-gray-200" href="recipes/lasagna.html">Lasagna</a></li>
+            <li><a class="border rounded-full px-3 py-2 bg-gray-200" href="recipes/sushi.html">Sushi</a></li>
+            <li><a class="border rounded-full px-3 py-2 bg-gray-200" href="recipes/bananaBread.html">Banana Bread</a></li>
         </ul>
 </body>
 </html>
